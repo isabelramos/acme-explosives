@@ -1,0 +1,40 @@
+{
+    "types": [
+        {
+            "id": 0,
+            "category": 0,
+            "name": "Personal",
+            "description": "Fireworks intended for recreational use during holiday celebrations."
+        },
+        {
+            "id": 1,
+            "category": 0,
+            "name": "Professional",
+            "description": "Fireworks intended for events and/or organized productions."
+        },
+        {
+            "id": 2,
+            "category": 0,
+            "name": "Concert",
+            "description": "Fireworks intended for outdoor concert productions."
+        },
+        {
+            "id": 3,
+            "category": 1,
+            "name": "Personal",
+            "description": "Explosives intended for destroying personal property."
+        },
+        {
+            "id": 4,
+            "category": 1,
+            "name": "Building",
+            "description": "Explosives intended for controlled building demolition."
+        },       
+        {
+            "id": 5,
+            "category": 1,
+            "name": "Antiquated",
+            "description": "A blast from the past! Demolition products of yesteryear."
+        }
+    ]
+}

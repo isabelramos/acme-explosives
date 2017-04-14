@@ -1,0 +1,112 @@
+{
+    "products": [{
+        "fairy_sparklers": {
+            "id": 0,
+            "type": 0,
+            "name": "Fairy Sparklers",
+            "description": "Multi-colored sparklers that are safe for any age."
+        },
+        "fairy_sparklers": {
+            "id": 1,
+            "type": 0,
+            "name": "Fairy Sparklers",
+            "description": "Multi-colored sparklers that are safe for any age."
+        },
+        "fairy_sparklers": {
+            "id": 2,
+            "type": 0,
+            "name": "Fairy Sparklers",
+            "description": "Multi-colored sparklers that are safe for any age."
+        },
+        "fairy_sparklers": {
+            "id": 3,
+            "type": 1,
+            "name": "Fairy Sparklers",
+            "description": "Multi-colored sparklers that are safe for any age."
+        },
+        "fairy_sparklers": {
+            "id": 4,
+            "type": 1,
+            "name": "Fairy Sparklers",
+            "description": "Multi-colored sparklers that are safe for any age."
+        },
+        "fairy_sparklers": {
+            "id": 5,
+            "type": 1,
+            "name": "Fairy Sparklers",
+            "description": "Multi-colored sparklers that are safe for any age."
+        },
+        "hand_grenade": {
+            "id": 6,
+            "type": 2,
+            "name": "Hand Grenade",
+            "description": "The most popular model, Union-issued Ketchum grenade, a projectile explosive that was thrown like a dart."
+        },
+        "cannon": {
+            "id": 7,
+            "type": 2,
+            "name": "Cannon",
+            "description": "The history of the cannon spans several hundred years. The cannon was invented in China as early as the 12th century and traces its development from the fire lance, the ancestor of cannons and firearms. They were among the earliest forms of gunpowder artillery, and over time replaced siege engines—among other forms of aging weaponry—on the battlefield."
+        },
+        "siege_engine": {
+            "id": 8,
+            "type": 2,
+            "name": "Siege engine",
+            "description": "This device was designed to break or circumvent city walls and other fortifications. Some have been operated close to the fortifications, while others have been used to attack from a distance."
+        },
+        "hand_grenade": {
+            "id": 6,
+            "type": 2,
+            "name": "Hand Grenade",
+            "description": "The most popular model, Union-issued Ketchum grenade, a projectile explosive that was thrown like a dart."
+        },
+        "cannon": {
+            "id": 7,
+            "type": 2,
+            "name": "Cannon",
+            "description": "The history of the cannon spans several hundred years. The cannon was invented in China as early as the 12th century and traces its development from the fire lance, the ancestor of cannons and firearms. They were among the earliest forms of gunpowder artillery, and over time replaced siege engines—among other forms of aging weaponry—on the battlefield."
+        },
+        "siege_engine": {
+            "id": 8,
+            "type": 2,
+            "name": "Siege engine",
+            "description": "This device was designed to break or circumvent city walls and other fortifications. Some have been operated close to the fortifications, while others have been used to attack from a distance."
+        },
+        "hand_grenade": {
+            "id": 6,
+            "type": 2,
+            "name": "Hand Grenade",
+            "description": "The most popular model, Union-issued Ketchum grenade, a projectile explosive that was thrown like a dart."
+        },
+        "cannon": {
+            "id": 7,
+            "type": 2,
+            "name": "Cannon",
+            "description": "The history of the cannon spans several hundred years. The cannon was invented in China as early as the 12th century and traces its development from the fire lance, the ancestor of cannons and firearms. They were among the earliest forms of gunpowder artillery, and over time replaced siege engines—among other forms of aging weaponry—on the battlefield."
+        },
+        "siege_engine": {
+            "id": 8,
+            "type": 2,
+            "name": "Siege engine",
+            "description": "This device was designed to break or circumvent city walls and other fortifications. Some have been operated close to the fortifications, while others have been used to attack from a distance."
+        },
+        "hand_grenade": {
+            "id": 6,
+            "type": 2,
+            "name": "Hand Grenade",
+            "description": "The most popular model, Union-issued Ketchum grenade, a projectile explosive that was thrown like a dart."
+        },
+        "cannon": {
+            "id": 7,
+            "type": 2,
+            "name": "Cannon",
+            "description": "The history of the cannon spans several hundred years. The cannon was invented in China as early as the 12th century and traces its development from the fire lance, the ancestor of cannons and firearms. They were among the earliest forms of gunpowder artillery, and over time replaced siege engines—among other forms of aging weaponry—on the battlefield."
+        },
+        "siege_engine": {
+            "id": 8,
+            "type": 2,
+            "name": "Siege engine",
+            "description": "This device was designed to break or circumvent city walls and other fortifications. Some have been operated close to the fortifications, while others have been used to attack from a distance."
+        }
+    }]
+}
