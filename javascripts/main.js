@@ -1,22 +1,44 @@
 $(document).ready(function(){
 
-    var explosives = [];
+    var categories = [];
+    var types = [];
+    var products = [];
 
-    // function makeExplosivesArray {
-    //     explosives.forEach (function(explosive) {
-    //         if (explosive.) {
+    function makeDropdownLinks () {
+        var dropdownString = "";
 
-    //         }
-    //     });
-    // }
+        for (var i=0; i < categories.length; i++) {
+            dropdownString += `<li><a href="#" id="category-${categories[i].id}" class="category">${categories[i].name}</a></li>`;
+        }
+        $("#choose-category").append(dropdownString);
+    }
 
-    function writeDOM(){
+
+    $("#choose-category").on("click", ".category", function() {
+        var categoryId = $(this)[0].id;
+        var categoryIdNumber = categoryId.split("category-")[1];
+
+        types.forEach (function(type) {
+            if (type.category === categoryIdNumber) {
+            console.log(types[i].category);
+
+            }
+        });
+        writeDOM();
+    });
+
+
+    function writeDOM () {
         var domString = "";
-        for(var i=0; i<explosives.length; i++){
+
+        for (var i=0; i < types.length; i++) {
             domString += `<div class="col-sm-4 col-md-2">`;
             domString += `<div class="panel panel-default">`;
             domString += `<div class="panel-heading">`;
-            domString += `<h3 class="panel-title">${explosives[i].name}</h3>`;
+            domString += `<h3 class="panel-title">${types[i].name}</h3>`;
+            products.forEach (function(product) {
+                domString += `<h5>${product.name}</h5>`;
+            })
             domString += `</div></div></div>`;
         }
         $("#container").append(domString);
@@ -52,14 +74,19 @@ $(document).ready(function(){
         })
     };
 
-    Promise.all([categoriesJSON(), typesJSON(), productsJSON()])
-        .then(function(results){
-            console.log("results", results);
-            results.forEach(function(ajaxCalls){
-                ajaxCalls.forEach(function(info){
-                    explosives.push(info);
-                })
-            })
-            writeDOM();
-        })
+
+    categoriesJSON().then(function(jsonData1){
+        categories = jsonData1;
+        return typesJSON();
+    }).then(function(jsonData2){
+        types = jsonData2;
+        types.push();
+        return productsJSON();
+    }).then(function(jsonData3){
+        products = jsonData3;
+        products.push();
+        makeDropdownLinks();
+    });
+
+
 });
