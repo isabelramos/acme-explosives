@@ -18,12 +18,11 @@ $(document).ready(function(){
         var categoryId = $(this)[0].id;
         var categoryIdNumber = categoryId.split("category-")[1];
 
-        types.forEach (function(type) {
-            if (type.category === categoryIdNumber) {
-            console.log(types[i].category);
-
-            }
-        });
+        for (var i=0; i < types.length; i++) {
+            if (categoryIdNumber === types[i].category) {
+                console.log(categoryIdNumber);
+            }   
+        }
         writeDOM();
     });
 
@@ -41,7 +40,7 @@ $(document).ready(function(){
             })
             domString += `</div></div></div>`;
         }
-        $("#container").append(domString);
+        $("#container").html(domString);
     }
 
     var categoriesJSON = function(){
@@ -73,7 +72,6 @@ $(document).ready(function(){
             })
         })
     };
-
 
     categoriesJSON().then(function(jsonData1){
         categories = jsonData1;
