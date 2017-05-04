@@ -16,7 +16,7 @@ $(document).ready(function(){
 
     $("#choose-category").on("click", ".category", function() {
         var categoryId = $(this)[0].id;
-        var categoryIdNumber = categoryId.split("category-")[1];
+        var categoryIdNumber = parseInt(categoryId.split("category-")[1]);
 
         for (var i=0; i < types.length; i++) {
             if (categoryIdNumber === types[i].category) {
@@ -85,6 +85,33 @@ $(document).ready(function(){
         products.push();
         makeDropdownLinks();
     });
+
+
+    // categoriesJSON().then(function(jsonData1){
+    //     categories = jsonData1;
+    //     categories.push();
+    //     makeDropdownLinks();
+    // });
+
+    // $("#choose-category").on("click", ".category", function() {
+    //     var categoryId = $(this)[0].id;
+    //     var categoryIdNumber = parseInt(categoryId.split("category-")[1]);
+
+    //     typesJSON().then(function(jsonData2){
+    //         types = jsonData2;
+    //         for (var i=0; i < types.length; i++) {
+    //             if (categoryIdNumber === types.category) {
+    //                 types.push();
+    //             }   
+    //         }
+    //         return productsJSON();
+    //     }).then(function(jsonData3){
+    //         products = jsonData3;
+    //         products.push();
+    //     });
+
+    //     writeDOM();
+    // });
 
 
 });
