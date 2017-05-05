@@ -14,3 +14,7 @@ body {
 .panel-title {
 	color: dimgrey;
 }
+
+.panel {
+	padding: 5px;
+}
