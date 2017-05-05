@@ -4,7 +4,6 @@ $(document).ready(function(){
     var types = [];
     var products = [];
     var chosenCategory = [];
-    var chosenProducts = [];
 
     function makeDropdownLinks () {
         var dropdownString = "";
@@ -18,14 +17,12 @@ $(document).ready(function(){
 
     $("#choose-category").on("click", ".category", function() {
         chosenCategory = [];
-        chosenProducts = [];
         var categoryId = $(this)[0].id;
         var categoryIdNumber = parseInt(categoryId.split("category-")[1]);
 
         for (var i=0; i < types.length; i++) {
             if (categoryIdNumber === types[i].category) {
                 chosenCategory.push(types[i]);
-
             }   
         }
         writeDOM();
@@ -40,6 +37,7 @@ $(document).ready(function(){
             domString += `<div class="panel-heading">`;
             domString += `<h3 class="panel-title">${chosenCategory[i].name}</h3>`;
             domString += `</div>`;
+            domString += `<div class="panel-body">`;
             products.forEach (function(product) {
                 if (product.type === 0 && chosenCategory[i].name === "Recreational") {
                     domString += `<h5>${product.name}</h5>`;
@@ -61,7 +59,7 @@ $(document).ready(function(){
                     domString += `<p>${product.description}</p>`; 
                 }
             })
-            domString += `</div></div>`;
+            domString += `</div></div></div>`;
         }
         $("#container").html(domString);
     }
