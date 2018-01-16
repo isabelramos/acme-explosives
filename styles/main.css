@@ -1,0 +1,16 @@
+body {
+	background-color: goldenrod;
+	color: dimgrey;
+}
+
+.jumbotron {
+	padding-left: 3%;
+}
+
+.jumbotron h1 {
+	color: dimgrey;
+}
+
+.panel-title {
+	color: dimgrey;
+}

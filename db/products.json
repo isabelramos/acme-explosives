@@ -1,0 +1,112 @@
+{
+    "products": [
+        {
+            "id": 0,
+            "type": 0,
+            "name": "Fairy Sparklers",
+            "description": "Multi-colored sparklers that are safe for any age."
+        },
+        {
+            "id": 1,
+            "type": 0,
+            "name": "Peony",
+            "description": "When you picture “fireworks” in your head, this is probably the mental image that you conjure up. No tails, no trails, just pure crackly, sparkly, globe-shaped bliss."
+        },
+        {
+            "id": 2,
+            "type": 0,
+            "name": "Firecrackers",
+            "description": "Primarily designed to produce a large amount of noise, especially in the form of a loud bang; any visual effect is incidental to this goal. They have fuses, and are wrapped in a heavy paper casing to contain the explosive compound. "
+        },
+        {
+            "id": 3,
+            "type": 1,
+            "name": "Girandola",
+            "description": "These wheel-like fireworks spin rapidly up into the air, shooting off sprays of sparks and sometimes emitting a high-pitched whistle."
+        },
+        {
+            "id": 4,
+            "type": 1,
+            "name": "Chrysanthemum",
+            "description": "Similar to the peony-style firework, the chrysanthemum features a scattering of bright stars which burn out to several faded trails. Keep an eye for the pistil: that’s the name of the colorful burst right in the center."
+        },
+        {
+            "id": 5,
+            "type": 1,
+            "name": "Beehive/Flying Fish",
+            "description": "These flurries of colorful stars resemble the frantic swarm-like movements of an angered bee colony or school of fish. Can’t say that the name isn’t accurate."
+        },
+        {
+            "id": 6,
+            "type": 2,
+            "name": "Willow",
+            "description": "The bright stars in these fireworks burn out to distinctively long cascades of smoke and particles, visually similar to the lanky branches found on the tree of the same name."
+        },
+        {
+            "id": 7,
+            "type": 2,
+            "name": "Comet",
+            "description": "These bright spheres shoot upward and leave behind a thick glittery trail. They usually look best spread out in a row, as a prelude to a larger effect."
+        },
+        {
+            "id": 8,
+            "type": 2,
+            "name": "Parachute",
+            "description": "When a parachute firework explodes, it releases a literal miniature parachute into the air…usually attached to the plastic shoulders of a tiny green army guy."
+        },
+        {
+            "id": 9,
+            "type": 3,
+            "name": "Crosette",
+            "description": "A crosette is like the firework equivalent of planarian reproduction: a comet splits into two at the apex of its launch, and boom, you’ve got a crosette."
+        },
+        {
+            "id": 10,
+            "type": 3,
+            "name": "Skyrocket",
+            "description": "The effect at the end of a skyrocket isn’t as notable as its launch: a signature trail of sparks and cylindrical body is what sets this firework apart from the rest."
+        },
+        {
+            "id": 11,
+            "type": 3,
+            "name": "Roman Candle",
+            "description": "Roman candles might look awesome, but their steady stream of upward shooting sparks doesn’t exactly make lighting them a date night-friendly activity."
+        },
+        {
+            "id": 12,
+            "type": 4,
+            "name": "Pearls",
+            "description": "These little orbs of color shoot high and fade away quickly, and work well as part of a cake — that's a fancy name for a fireworks formation — or larger compilation."
+        },
+        {
+            "id": 13,
+            "type": 4,
+            "name": "Palm",
+            "description": "Because of their sparkling trails in the shape of palmetto leaves, these fireworks are named for the state tree of Florida (even if the electric colors make this “tree” seem more akin to Las Vegas)."
+        },
+        {
+            "id": 14,
+            "type": 4,
+            "name": "Smoke Bombs",
+            "description": "Two types of smokers available: color smoke balls or cylindrical smoke grenades. The smoke balls come in a variety of colors."
+        },
+        {
+            "id": 15,
+            "type": 5,
+            "name": "Hand Grenade",
+            "description": "The most popular model, Union-issued Ketchum grenade, a projectile explosive that was thrown like a dart."
+        },
+        {
+            "id": 16,
+            "type": 5,
+            "name": "Cannon",
+            "description": "The history of the cannon spans several hundred years. The cannon was invented in China as early as the 12th century and traces its development from the fire lance, the ancestor of cannons and firearms. They were among the earliest forms of gunpowder artillery, and over time replaced siege engines—among other forms of aging weaponry—on the battlefield."
+        },
+        {
+            "id": 17,
+            "type": 5,
+            "name": "Siege engine",
+            "description": "This device was designed to break or circumvent city walls and other fortifications. Some have been operated close to the fortifications, while others have been used to attack from a distance."
+        }
+    ]
+}
